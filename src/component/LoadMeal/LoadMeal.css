@@ -1,0 +1,22 @@
+.search-container{
+    background-color: tomato;
+    padding-bottom: 10px;
+}
+.search-container input{
+    width: 50%;
+    padding: 0.5em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    margin: 2em;
+}
+.cart-container{
+    border-left: 1px solid tomato;
+}

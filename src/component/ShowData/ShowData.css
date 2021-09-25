@@ -1,0 +1,22 @@
+.food img{
+    width: 100%;
+}
+.food h2{
+    font-size: 1.25em;
+    color: tomato;
+}
+button{
+    margin: 15px 10px;
+    padding: 5px;
+    background: tomato;
+    color: whitesmoke;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button:hover, a:hover{
+    background: whitesmoke;
+    color: tomato;
+}
